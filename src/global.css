@@ -1,0 +1,188 @@
+@font-face {
+  font-family: Circular;
+  src: url(/src/assets/fonts/circular/CircularSpotifyText-Light.otf)
+    format("truetype");
+  font-weight: 300;
+  font-weight: light;
+  font-display: swap;
+}
+@font-face {
+  font-family: Circular;
+  src: url(/src/assets/fonts/circular/CircularSpotifyText-Medium.otf)
+    format("truetype");
+  font-weight: 500;
+  font-weight: medium;
+  font-display: swap;
+}
+@font-face {
+  font-family: Circular;
+  src: url(/src/assets/fonts/circular/CircularSpotifyText-Bold.otf)
+    format("truetype");
+  font-weight: 700;
+  font-weight: bold;
+  font-display: swap;
+}
+
+:root {
+  scrollbar-gutter: stable;
+
+  --navbar: rgba(38, 38, 38, 0.8);
+
+  --shade-0: #ebebeb;
+  --shade-1: #d3d3d3;
+  --shade-2: #bdbdbd;
+  --shade-3: #999999;
+  --shade-4: #797979;
+  --shade-5: #5f5f5f;
+  --shade-6: #484848;
+  --shade-7: #383838;
+  --shade-8: #2a2a2a;
+  --shade-9: #202020;
+  --shade-10: #161616;
+  --shade-11: #0f0f0f;
+
+  --text-theme-gradient: linear-gradient(
+    45deg,
+    rgba(255, 217, 24, 0.7) 0%,
+    rgba(239, 46, 46, 0.7) 50%,
+    rgba(255, 37, 193, 0.7) 100%
+  );
+
+  --theme-gradient: linear-gradient(
+    45deg,
+    rgba(255, 217, 24, 0.7) 0%,
+    rgba(238, 91, 37, 0.7) 25%,
+    rgba(239, 46, 46, 0.7) 50%,
+    rgba(255, 37, 193, 0.7) 75%,
+    rgba(178, 35, 255, 0.7) 100%
+  );
+
+  --theme-gradient-pale: linear-gradient(
+    45deg,
+    rgba(255, 217, 24, 0.4) 0%,
+    rgba(238, 91, 37, 0.4) 25%,
+    rgba(239, 46, 46, 0.4) 50%,
+    rgba(255, 37, 193, 0.4) 75%,
+    rgba(178, 35, 255, 0.4) 100%
+  );
+
+  --react: #0066ff;
+  --astro: #ff0000;
+  --css: #ff00fb;
+  --javascript: #f7df1e;
+  --python: #ffee00;
+  --unity: #cdcdcd;
+  --c-sharp: #09ff00;
+  --vr: #a561f3;
+  --plotly: #00ffdd;
+  --tensorflow: #ff6f00;
+  --opencv: #00ffd9;
+  --firebase: #ffca28;
+  --pandas: #f82f83;
+  --ai: #ff00e1;
+  --c: #c1c1c1;
+  --jenkins: #d24939;
+  --blender: #e27203;
+  --flutter: #58c2ef;
+  --dart: #11719e;
+  --tailwind: #06b6d4;
+  --java: #20f8d4;
+  --springboot: #6db33f;
+  --aws: #ff9900;
+  --docker: #0db7ed;
+  --kubernetes: #326ce5;
+  --remix: #ef476b;
+  --expressjs: #fed966;
+  --typescript: #007acc;
+  --postgresql: #9beefb;
+
+  --motorola-border: #2887e0;
+  --ciena-border: #d90400;
+  --propel-border: #ffffff;
+  --synchroteam-border: #e58d25;
+  --eco-rewards-border: #36ae57;
+  --vroom-border: #f39d18;
+  --vr-viz-border: #8900de;
+  --dot-deck-border: #787878c1;
+  --hungry-ai-border: #b8270ab4;
+  --faang-slayer-border: #201dca;
+  --kelpie-border: #187a72;
+  --hth-2023-border: #0051ffba;
+  --hth-2024-border: #ff0000a5;
+  --hth-org-border: #ff3535;
+  --read-me-border: #00aeffba;
+  --feather-fox-border: #c85622aa;
+}
+
+body {
+  background: var(--shade-10);
+  color: var(--shade-0);
+  font-family: Circular;
+  font-weight: 300;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+h6 {
+  font-size: 0.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  padding: 0;
+  color: var(--shade-2);
+  margin: 0rem;
+}
+
+@media screen and (max-width: 510px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 0.75rem;
+  }
+  h6 {
+    font-size: 0.5rem;
+  }
+}
