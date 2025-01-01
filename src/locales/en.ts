@@ -64,6 +64,16 @@ export default {
         img: "synapse",
         show_border_passive: true,
       },
+      {
+        title: "SRMD",
+        description:
+          "Website for information and registration regarding an international event",
+        website: "https://srmd-test-site.vercel.app/",
+        github: "https://github.com/Rush1404/SRMD---Test-Site",
+        tags: ["HTML5", "React", "Javascript", "Git"],
+        img: "SRMD",
+        show_border_passive: true,
+      },
     ],
   },
   footer: {

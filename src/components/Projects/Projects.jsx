@@ -6,6 +6,7 @@ import myocharm from "../../assets/thumbnails/myocharm.svg";
 import jinas from "../../assets/thumbnails/jinas.svg";
 import synapse from "../../assets/thumbnails/synapse.svg";
 import fallback from "../../assets/thumbnails/default.webp";
+import SRMD from "../../assets/images/srmd.jpeg"
 import RevealDiv from "../../utils/RevealDiv";
 
 function Projects() {
@@ -14,12 +15,14 @@ function Projects() {
     myocharm: myocharm,
     jinas: jinas,
     synapse: synapse,
+    SRMD: SRMD,
   };
 
   const border_colors = {
     myocharm: "#f589ea",
     jinas: "#ffffff",
     synapse: "#ffffff",
+    SRMD: "#ffffff",
   };
 
   return (

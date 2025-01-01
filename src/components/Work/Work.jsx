@@ -3,8 +3,8 @@ import { TypeAnimation } from "react-type-animation";
 import styles from "./Work.module.css";
 import { t } from "../../i18n";
 import "../../global.css";
-import jinas from "../../assets/thumbnails/jinas_jewels.svg";
-import pmcommu from "../../assets/thumbnails/pmcommu_cover.svg";
+import jinas from "../../assets/thumbnails/jinas.svg";
+import pmcommu from "../../assets/images/pmcommu.png";
 import fallback from "../../assets/thumbnails/default.webp";
 import RevealDiv from "../../utils/RevealDiv";
 
