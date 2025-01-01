@@ -48,7 +48,7 @@ export default {
       },
       {
         title: "Jinas",
-        description: "Developed an ecommerce platform with thousands of monthly users",
+        description: "Helped develop an ecommerce platform with thousands of monthly users",
         website: "https://jinasjewels.com",
         tags: ["PHP", "PostGRESQL", "Figma"],
         img: "jinas",
