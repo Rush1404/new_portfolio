@@ -41,7 +41,6 @@ export default {
         title: "MyoCharm",
         description: "Determine whether you have neuropathy or myopathy",
         github: "https://github.com/faymo/MyoCharm",
-        devpost: "https://devpost.com/software/myocharm",
         website: "https://myo-charm-1omr.vercel.app/",
         tags: ["React", "Flask", "Python", "Tensorflow", "XML", "Keras"],
         img: "myocharm",
